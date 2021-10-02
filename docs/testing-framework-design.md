@@ -49,10 +49,10 @@ A Validator is a java application which calls Sample App to generate metrics/tra
 A Platform is a place where Sample App and AWS Otel Collector are running, right now the supported platforms are
 
 * EC2
-* EC2 Based ECS
-* FARGATE Based ECS
-* EC2 Based EKS
-* FARGATE Based EKS
+* ECS EC2
+* ECS Fargate
+* EKS EC2
+* EKS FARGATE
 * Local, Sample App and Collector run as containers in the same environment that the framework process is running.
 
 see [here](https://github.com/aws-observability/aws-otel-test-framework/tree/terraform/terraform) for more details.
